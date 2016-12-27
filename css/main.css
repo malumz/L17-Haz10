@@ -1,0 +1,85 @@
+/*-------------------->> HEADER <<--------------------*/
+
+header{
+    height: 250px;
+}
+
+.fondo{
+    background: url('../images/home.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0% 61%;
+}
+
+.logo {
+    text-align: center;
+}
+.logo img{
+    margin-top: 20px;
+    width: 85%;
+}
+/*-------------------->> SECTION PREGUNTAS <<--------------------*/
+
+.preguntas{
+    margin-bottom: 40px;
+    background: #FFB165;
+    padding: 3% 0;
+}
+
+.preguntas label{
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.preguntas label select {
+    margin-bottom: 20px;
+}
+
+/*-------------------->> SECTION EJERCICIO <<--------------------*/
+
+.ejercicio{
+    margin-bottom: 40px;
+    background: #379C9F;
+    color: #fff;
+}
+
+.ejercicio form {
+    padding-top: 10%;
+}
+
+.ejercicio p{
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+.boton{
+    padding-top: 30px;
+}
+
+.ejercicio p:nth-child(2){
+    font-size: 2em;
+}
+
+#salida {
+    font-size: 200%;
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+}
+
+/*-------------------->> SECTION FOOTER <<--------------------*/
+
+.fondofooter{
+    background-color: #47ccaf;
+}
+
+footer p{
+    |position: absolute;
+    |bottom: 0px;
+    padding-top: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.12em;
+}
