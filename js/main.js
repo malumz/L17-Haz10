@@ -1,7 +1,5 @@
 var aNumber = document.getElementById("aNumber");
 var bNumber = document.getElementById("bNumber");
-var A = document.getElementById("Anum");
-var B = document.getElementById("Bnum");
 var pSalida = document.getElementById("salida");
 
 
@@ -9,9 +7,10 @@ var pSalida = document.getElementById("salida");
 function calcular() {
     var valaNumber = aNumber.value;
     var valbNumber = bNumber.value;
+    var suma = parseInt(valaNumber)+parseInt(valbNumber);
 
-    var valA = Anum.value;
-    var valB = Bnum.value;
+    //var valA = Anum.value;
+    //var valB = Bnum.value;
 
     var isaNumber = true;
     var isbNumber = false;
@@ -30,10 +29,13 @@ function calcular() {
       if (valaNumber == "10" || valbNumber == "10") {
             pSalida.innerHTML = "1";
         } 
+
+    else if ( suma==10) {
+        pSalida.innerHTML = "1";
+    }
+
     
-
-
-        else {
+      else {
             pSalida.innerHTML = " No hay 10 por ningun lado!";
         }
     }
